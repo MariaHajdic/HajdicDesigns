@@ -1,5 +1,6 @@
 import "./styles.css"
 import backgroundImage from "./background.jpg"
+import ContactForm from "./ContactForm.tsx"
 
 const LandingPage = () => {
     return (
@@ -7,15 +8,7 @@ const LandingPage = () => {
             <img src={backgroundImage} alt="Background" className="background-image" loading="lazy" />
             <div className="gradient-overlay"></div> 
             
-            <div className="contact-form">
-                <h2 className="landing-text">Now Accepting New Projects</h2>
-                <form action="https://formsubmit.co/connect@hajdicdesigns.co.uk" method="POST">
-                    <input type="text" name="name" placeholder="Your Name" required />
-                    <input type="email" name="email" placeholder="Your Email" required />
-                    <textarea name="message" placeholder="Message" required></textarea>
-                    <button type="submit">Send</button>
-                </form>
-            </div>
+            <ContactForm />
         </section>
     )
 }
