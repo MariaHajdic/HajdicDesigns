@@ -1,5 +1,5 @@
 import "./styles.css"
-import backgroundImage from "./background.jpg"
+import backgroundImage from "./background.webp"
 import ContactForm from "./ContactForm.tsx"
 
 const LandingPage = () => {
