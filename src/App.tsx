@@ -6,8 +6,7 @@ const LandingPage = () => {
     return (
         <section className="landing-page">
             <img src={backgroundImage} alt="Background" className="background-image" loading="lazy" />
-            <div className="gradient-overlay"></div> 
-            
+            <div className="gradient-overlay"></div>
             <ContactForm />
         </section>
     )
